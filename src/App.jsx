@@ -4,7 +4,8 @@ import { useState } from "react";
 import Header from "./components/Header";
 import HeroBanner from "./components/HeroBanner";
 import AboutMe from "./components/AboutMe";
-// import Contact from "./components/Contact";
+import Work from "./components/Work";
+import Footer from "./components/Footer";
 // import Languages from "./components/Languages";
 // import Skills from "./components/Skills";
 import "./App.css";
@@ -18,7 +19,10 @@ function App() {
       <HeroBanner />
       <main>
         <AboutMe />
+        <Work />
+        <Footer />
       </main>
+      <footer></footer>
     </>
   );
 }

@@ -324,28 +324,7 @@ nav ul li a {
 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     
-    
-
-
-    
-
-    .projects-row-first {
-        
-    }
     .project-image-first {
         display: flex;
         width: 100%;
@@ -355,10 +334,6 @@ nav ul li a {
         display: flex;
         width: 100%;
         flex: 1 0 200px
-    }
-
-    .projects-row {
-        display: flex;
     }
 
     .project-card {

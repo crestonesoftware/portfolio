@@ -21,7 +21,7 @@ function Header() {
               <div className="underline-bar"></div>
             </li>
             <li>
-              <a href="mailto:e@mail.com">&nbsp;&nbsp;Contact Me&nbsp;&nbsp;</a>
+              <a href="#contact">&nbsp;&nbsp;Contact Me&nbsp;&nbsp;</a>
               <div className="underline-bar"></div>
             </li>
             <li>

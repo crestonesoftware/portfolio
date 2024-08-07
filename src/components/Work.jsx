@@ -1,22 +1,28 @@
 import React from "react";
+import ProjectCard from "./ProjectCard";
 
-function HeroBanner() {
+function Work() {
   return (
     <>
-      <section className="hero">
-        <img
-          src="./assets/images/turtle-horizontal.jpg"
-          alt="log that looks like a turtle head"
-        />
-        {/* <!-- hero image subtitle --> */}
-        <div className="hero-subtitle">
-          <h2>Full-Stack Padawan</h2>
+      <section id="work">
+        {/* <!-- projects row --> */}
+
+        <div id="projects-orig" className="body-section">
+          <div className="main-section-label-area">
+            <h2>Work</h2>
+          </div>
+          {/* <!-- separator line --> */}
+          <div className="separator-bar">a</div>
+
+          <div id="projects" className="projects">
+            <ProjectCard src={"./assets/images/greentrail.jpg"} />
+            <ProjectCard src={"./assets/images/readme-generator.jpg"} />
+            <ProjectCard src={"./assets/images/note-taker.jpg"} />
+          </div>
         </div>
       </section>
-
-      {/* <Header /> */}
     </>
   );
 }
 
-export default HeroBanner;
+export default Work;
