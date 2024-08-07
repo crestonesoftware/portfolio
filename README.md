@@ -2,6 +2,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## <a name="Description"></a>Description
 Portfolio website implemented using React components
+![image](https://github.com/user-attachments/assets/8a3d3033-4330-4c09-8959-b2642b2adbba)
+
 ## <a name="Table of Contents"></a>Table of Contents
 - [Description](#Description)
 - [Installation](#Installation)
