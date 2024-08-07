@@ -1,35 +1,58 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+
 import Nav from "./components/Nav";
 import Header from "./Header";
 import Contact from "./components/Contact";
 import Languages from "./components/Languages";
 import Skills from "./components/Skills";
 import "./App.css";
-import "./bs.css";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div className="container sections-wrapper py-5">
+      <div className="container theMain">
         <div className="row">
-          <div className="primary col-lg-8 col-12">
-            <h2>Nav</h2>
-            <h2>Picture, icons and some links</h2>
-            <h2>About Me</h2>
-            <h2>Latest Project</h2>
-          </div>
-          <div className="secondary col-lg-4 col-12">
-            <Languages />
-            <h2>Skills</h2>
-            <h2>Github Activity</h2>
-            <Contact />
-            <h2>Languages</h2>
+          <div className="col">
+            <div className="xs">XS</div>
+            <div className="sm">SM</div>
+            <div className="md">MED</div>
+            <div className="lg">LG</div>
+            <div className="xl">XL</div>
+            <div className="xxl">XXL</div>
           </div>
         </div>
       </div>
+      <header>
+        <div className="name-in-header">
+          {/* <!-- name --> */}
+          <h1>Fergus Roy</h1>
+        </div>
+
+        {/* <!-- nav bar --> */}
+        <nav>
+          <ul>
+            <li>
+              <a href="#about-me">&nbsp;&nbsp;About Me&nbsp;&nbsp;</a>
+              <div className="underline-bar"></div>
+            </li>
+            <li>
+              <a href="#work">&nbsp;&nbsp;Work&nbsp;&nbsp;</a>
+              <div className="underline-bar"></div>
+            </li>
+            <li>
+              <a href="mailto:e@mail.com">&nbsp;&nbsp;Contact Me&nbsp;&nbsp;</a>
+              <div className="underline-bar"></div>
+            </li>
+            <li>
+              <a href="">&nbsp;&nbsp;Resume&nbsp;&nbsp;</a>
+              <div className="underline-bar"></div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <Header />
     </>
   );
 }
