@@ -15,9 +15,18 @@ function Work() {
           <div className="separator-bar">a</div>
 
           <div id="projects" className="projects">
-            <ProjectCard src={"./assets/images/greentrail.jpg"} />
-            <ProjectCard src={"./assets/images/readme-generator.jpg"} />
-            <ProjectCard src={"./assets/images/note-taker.jpg"} />
+            <ProjectCard
+              src={"../assets/images/greentrail.jpg"}
+              altText={"website showing ocean in background"}
+            />
+            <ProjectCard
+              src={"../assets/images/readme-generator.jpg"}
+              altText={"screenshot of a README file"}
+            />
+            <ProjectCard
+              src={"../assets/images/note-taker.jpg"}
+              altText={"screenshot of a note-taking app"}
+            />
           </div>
         </div>
       </section>
